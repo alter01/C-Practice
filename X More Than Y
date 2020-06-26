@@ -1,0 +1,13 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void){
+  printf("This program will test if X is less than, equal to, or more than Y.\n");
+ int x = 5, y = 4;
+ if (x < y)
+  {
+   printf ("Y is less than X.\n");
+  }
+  else
+  printf ("X is equal or more than Y.\n");
+    }
